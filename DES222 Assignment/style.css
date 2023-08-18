@@ -1,0 +1,240 @@
+:root {
+    --color1: #4169e1;
+    --color2: #0000cd;
+    --color3: #1e90ff;
+    --color4: #00008b;
+    --color5: #0B1D51;
+    --white-font: #FFFFFF;
+    --black-font: #000000;
+}
+
+.body {
+	background-color: #262851;
+}
+
+.main-container {
+    max-width: 72em;
+    margin: 0 auto;
+    font-family: Inter;
+    color: var(--black--font);
+	text-align: center;
+}
+
+.image1{
+	width: 50%;
+}
+
+/* Here we define the aspects of style of our elements other than their grid layout */
+.banner {
+    background-color: var(--color5);
+    color: var(--color3);
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.banner-title {
+    font-size: 3em;
+}
+
+.banner-subtitle {
+    font-size: 2em;
+    padding-left: 0.125rem;
+    padding-top: 0.25rem;
+}
+
+.cards1 {
+    min-height: 16em;
+    background-color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.cards2 {
+    min-height: 16em;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 3em;
+    overflow: hidden;
+}
+
+.team-member-card-image {
+    max-width: 100%;
+}
+
+.team-member-card-blurb {
+    padding: 2em;
+}
+
+.future-change {
+    background-color: var(--color5);
+    color: var(--color3);
+    font-size: 3em;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+
+.client-icon {
+    width: 100%;
+}
+
+.yeppers {
+width: 25%;
+    background-color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    overflow: hidden;
+	padding-left: 10em;
+}
+
+.second-container {
+    max-width: 72em;
+    margin: 0 auto;
+    font-family: Inter;
+    color: var(--black--font);
+	text-align: center;
+}
+
+.logos {
+	border-color: aqua;
+	border: 1em;
+	
+}
+
+/* now we create names for the grid areas for specific elements */
+#banner {
+    grid-area: bn1;
+}
+
+#tech1 {
+    grid-area: tm1;
+}
+
+#tech2 {
+    grid-area: tm2;
+}
+
+#tech3 {
+    grid-area: tm3;
+}
+
+#future-change {
+    grid-area: ct1;
+}
+
+#tech4 {
+    grid-area: ci1;
+}
+
+#tech5 {
+    grid-area: ci2;
+}
+
+#tech6 {
+    grid-area: ci3;
+}
+
+#tech7 {
+    grid-area: ci4;
+}
+
+#tech8 {
+    grid-area: ci5;
+}
+
+#tech9 {
+    grid-area: ci6;
+}
+
+#tech10 {
+    grid-area: ci7;
+}
+
+#tech11 {
+    grid-area: ci8;
+}
+
+.main-container {
+    display: grid;
+    column-gap: 1em;
+}
+  
+.main-container {
+    grid-template:
+        "bn1 bn1 bn1 bn1" minmax(8em, auto)
+        " .   .   .   . " minmax(2em, auto)
+        "tm1 tm1 tm1 tm1" minmax(32em, auto)
+        " .   .   .   . " minmax(2em, auto)
+        "tm2 tm2 tm2 tm2" minmax(32em, auto)
+        " .   .   .   . " minmax(2em, auto)
+        "tm3 tm3 tm3 tm3" minmax(32em, auto)
+        " .   .   .   . " minmax(2em, auto)
+        "ct1 ct1 ct1 ct1" minmax(4em, auto)
+        " .   .   .   . " minmax(2em, auto)
+        "ci1 ci1 ci1 ci1" minmax(8em, auto)
+        " .   .   .   . " minmax(1em, auto)
+        "ci2 ci2 ci2 ci2" minmax(8em, auto)
+        " .   .   .   . " minmax(1em, auto)
+        "ci3 ci3 ci3 ci3" minmax(8em, auto)
+        " .   .   .   . " minmax(1em, auto)
+        "ci4 ci4 ci4 ci4" minmax(8em, auto)
+        " .   .   .   . " minmax(2em, auto)
+        "ci5 ci5 ci5 ci5" minmax(8em, auto)
+        " .   .   .   . " minmax(1em, auto)
+        "ci6 ci6 ci6 ci6" minmax(8em, auto)
+        " .   .   .   . " minmax(1em, auto)
+        "ci7 ci7 ci7 ci7" minmax(8em, auto)
+        " .   .   .   . " minmax(1em, auto)
+        "ci8 ci8 ci8 ci8" minmax(8em, auto)
+}
+    
+@media (min-width: 50em) {
+       .main-container {
+        grid-template:
+        "bn1 bn1 bn1 bn1 bn1 bn1 bn1 bn1" minmax(8em, auto)
+        " .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "tm1 tm1 tm1 tm1 tm2 tm2 tm2 tm2" minmax(32em, auto)
+        " .   .   .   .   .   .   .   . " minmax(2em, auto)
+        " .   .  tm3 tm3 tm3 tm3  .   . " minmax(32em, auto)
+        " .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "ct1 ct1 ct1 ct1 ct1 ct1 ct1 ct1" minmax(4em, auto)
+        " .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "ci1 ci1 ci1 ci1 ci2 ci2 ci2 ci2" minmax(8em, auto)
+        " .   .   .   .   .   .   .   . " minmax(1em, auto)
+        "ci3 ci3 ci3 ci3 ci4 ci4 ci4 ci4" minmax(8em, auto)
+        " .   .   .   .   .   .   .   . " minmax(1em, auto)
+        "ci5 ci5 ci5 ci5 ci6 ci6 ci6 ci6" minmax(8em, auto)
+        " .   .   .   .   .   .   .   . " minmax(1em, auto)
+        "ci7 ci7 ci7 ci7 ci8 ci8 ci8 ci8" minmax(8em, auto)
+		" .   .   .   .   .   .   .   . " minmax(1em, auto)
+        "sp1 sp1 sp1 sp1 sp1 sp1 sp1 sp1" minmax(8em, auto) 
+        " .   .   .   .   .   .   .   . " minmax(2em, auto)
+    }
+}
+
+@media (min-width: 75em) {
+    .main-container {
+        grid-template:
+        "bn1 bn1 bn1 bn1 bn1 bn1 bn1 bn1 bn1 bn1 bn1 bn1" minmax(8em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "tm1 tm1 tm1 tm1 tm2 tm2 tm2 tm2 tm3 tm3 tm3 tm3" minmax(32em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(4em, auto)
+        "ct1 ct1 ct1 ct1 ct1 ct1 ct1 ct1 ct1 ct1 ct1 ct1" minmax(4em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(2em, auto)
+        "ci1 ci1 ci1 ci1 ci1 ci1 ci2 ci2 ci2 ci2 ci2 ci2" minmax(8em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+        "ci3 ci3 ci3 ci3 ci3 ci3 ci4 ci4 ci4 ci4 ci4 ci4" minmax(8em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto
+  	    "ci5 ci5 ci5 ci5 ci5 ci5 ci6 ci6 ci6 ci6 ci6 ci6" minmax(8em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+        "ci7 ci7 ci7 ci7 ci7 ci7 ci8 ci8 ci8 ci8 ci8 ci8" minmax(8em, auto)
+        " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+    }
+}
