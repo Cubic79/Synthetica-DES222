@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DES222 ASSIGNMENT 1</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+	<style>
+	body {
+  	background-color: #262851;
+	}
+</style>
+</head>
+<body>
+    
+  <div class="main-container">
+    <div class="banner" id="banner">
+      <div class="banner-title">Synthetica</div>
+      <div class="banner-subtitle">Humans and AI Synergy</div>
+    </div>
+
+    <div class="cards1" id="tech1">
+      <img class="team-member-card-image" id="teamMemberCardImage1" src="./images/Tech4.jpeg"></img>
+      <div class="team-member-card-blurb" id="teamMemberCardBlurb1">Humans and AI can establish a profound connection through a harmonious synergy that leverages the unique strengths of each. While humans possess creativity, emotional intelligence, and complex reasoning, AI brings unparalleled processing power, data analysis capabilities, and rapid information retrieval to the table.</div>
+    </div>
+	
+    <div class="cards1" id="tech2">
+      <img class="team-member-card-image" id="teamMemberCardImage2" src="./images/Tech2.jpeg"></img>
+      <div class="team-member-card-blurb" id="teamMemberCardBlurb2"> Through ongoing collaboration, humans can guide AI, shaping its development and training it to understand context, nuance, and ethical considerations. In return, AI assists humans by providing insights from vast datasets, aiding in complex decision-making, and automating routine tasks, thereby liberating individuals to focus on innovation and meaningful engagements.</div>
+    </div>
+	
+    <div class="cards1" id="tech3">
+      <img class="team-member-card-image" id="teamMemberCardImage3" src="./images/Tech10.jpeg"></img>
+      <div class="team-member-card-blurb" id="teamMemberCardBlurb3">This evolving partnership holds the potential to transform industries, accelerate scientific breakthroughs, and address global challenges, fostering a future where humans and AI coexist and thrive in a symbiotic relationship.</div>
+    </div>
+          
+<div class="future-change" id="future-change">AI Can Change The Future</div>
+
+<div class="cards2" id="tech4"><img class="client-icon" src="./images/Tech3.jpeg"></img><br>
+<div class="plan1" id="plan1">Automation and Efficiency: <br><br>
+	AI-powered automation can streamline processes, from manufacturing to customer service, leading to increased efficiency and reduced costs. Repetitive and mundane tasks can be automated, allowing humans to focus on more creative and strategic endeavors.<br><br></div>
+</div>
+<div class="cards2" id="tech5"><img class="client-icon" src="images/Tech12.jpeg"></img><br>
+<div class="plan2" id="plan2">Healthcare Advancements:<br><br>
+	AI can revolutionize healthcare through personalized treatment plans, early disease detection, and more accurate diagnoses. Medical imaging analysis, drug discovery, and patient data management can all benefit from AI's capabilities.<br><br></div>
+</div>
+<div class="cards2" id="tech6"><img class="client-icon" src="images/Tech1.jpeg"></img><br>
+<div class="plan3" id="plan3">Education Transformation: <br><br>
+	AI-driven personalized learning platforms can adapt to individual student needs, enhancing education accessibility and effectiveness. Virtual tutors and AI-powered educational content can cater to diverse learning styles.<br><br></div>
+</div>
+<div class="cards2" id="tech7"><img class="client-icon" src="images/Tech13.jpeg"></img><br>
+<div class="plan4" id="plan4">Economic Growth:<br><br>
+	AI can stimulate economic growth by fostering innovation, creating new industries, and increasing productivity. AI-driven insights can help businesses make data-driven decisions for growth and expansion.<br><br></div>
+</div>
+<div class="cards2" id="tech8"><img class="client-icon" src="images/Tech7.jpeg"></img><br>
+<div class="plan5" id="plan5">Environmental Sustainability: <br><br>
+	AI can aid in managing resources more efficiently, optimizing energy consumption, and predicting environmental changes. It can contribute to addressing climate change and promoting sustainable practices.<br><br></div>
+</div>
+<div class="cards2" id="tech9"><img class="client-icon" src="images/Tech8.jpeg"></img><br>
+<div class="plan6" id="plan6">Transportation Revolution: <br><br>
+	AI-enabled self-driving vehicles can lead to safer roads, reduced traffic congestion, and increased accessibility for people with limited mobility. Delivery systems can become more efficient and eco-friendly.<br><br></div>
+</div>
+<div class="cards2" id="tech10"><img class="client-icon" src="images/Tech9.jpeg"></img><br>
+<div class="plan7" id="plan7">Personal Assistants and Services: <br><br>
+	AI-powered virtual assistants can enhance daily life by offering personalized recommendations, managing schedules, and assisting with tasks ranging from shopping to home automation.<br><br></div>
+</div>
+<div class="cards2" id="tech11"><img class="client-icon" src="images/Tech11.jpeg"></img><br>
+<div class="plan8" id="plan8">Scientific Breakthroughs: <br><br>
+	AI can accelerate scientific research by processing and analyzing massive datasets, aiding in complex simulations, and discovering patterns that might be otherwise overlooked.<br><br></div>
+
+</div>    
+
+
+
+
+</body>
+</html>
+  
